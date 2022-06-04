@@ -47,6 +47,10 @@ img {
     margin-bottom: 24px;
 }
 
+.table_container {
+    margin-bottom: 64px;
+}
+
 table {
     margin-left: auto;
     margin-right: auto;
