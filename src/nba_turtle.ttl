@@ -1,0 +1,195 @@
+@prefix team: <http://nba.com/team#> .
+@prefix data: <http://nba.com/team/data#> .
+
+#temaCode       #data                  #value
+team:001        data:name              "Boston Celtics" ;
+                data:arena             "TD Garden" ;
+                data:capacity          "18,624" ;
+                data:division          "Atlantic" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "10" ;
+                data:countConfChamp    "17" .
+
+team:002        data:name              "Brooklyn Nets" ;
+                data:arena             "Barclays Center" ;
+                data:capacity          "17,732" ;
+                data:division          "Atlantic" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "2" .
+
+team:003        data:name              "New York Knicks" ;
+                data:arena             "Madison Square Garden" ;
+                data:capacity          "19,812" ;
+                data:division          "Atlantic" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "4" .
+
+team:004        data:name              "Philadelphia 76ers" ;
+                data:arena             "Wells Fargo Center" ;
+                data:capacity          "20,478" ;
+                data:division          "Atlantic" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "5" .
+
+team:005        data:name              "Chicago Bulls" ;
+                data:arena             "United Center" ;
+                data:capacity          "20,917" ;
+                data:division          "Central" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "6" ;
+                data:countConfChamp    "6" .
+
+team:006        data:name              "Cleveland Cavaliers" ;
+                data:arena             "Rocket Mortgage FieldHouse" ;
+                data:capacity          "19,432" ;
+                data:division          "Central" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "1" ;
+                data:countConfChamp    "5" .
+
+team:007        data:name              "Detroit Pistons" ;
+                data:arena             "Little Caesars Arena" ;
+                data:capacity          "20,332" ;
+                data:division          "Central" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "3" ;
+                data:countConfChamp    "5" .
+
+team:008        data:name              "Indiana Pacers" ;
+                data:arena             "Bankers Life Fieldhouse" ;
+                data:capacity          "17,923" ;
+                data:division          "Central" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "1" .
+
+team:009        data:name              "Atlanta Hawks" ;
+                data:arena             "State Farm Arena" ;
+                data:capacity          "16,600" ;
+                data:division          "Southeast" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "0" .
+
+team:010        data:name              "Charlotte Hornets" ;
+                data:arena             "Spectrum Center" ;
+                data:capacity          "19,077" ;
+                data:division          "Southeast" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "0" .
+
+team:011        data:name              "Miami Heat" ;
+                data:arena             "FTX Arena" ;
+                data:capacity          "19,600" ;
+                data:division          "Southeast" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "3" ;
+                data:countConfChamp    "6" .
+
+team:012        data:name              "Orlando Magic" ;
+                data:arena             "Amway Center" ;
+                data:capacity          "18,846" ;
+                data:division          "Southeast" ;
+                data:conference        "Eastern" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "2" .
+
+team:013        data:name              "Denver Nuggets" ;
+                data:arena             "Ball Arena" ;
+                data:capacity          "19,520" ;
+                data:division          "Northwest" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "0" .
+
+team:014        data:name              "Minnesota Timberwolves" ;
+                data:arena             "Target Center" ;
+                data:capacity          "18,798" ;
+                data:division          "Northwest" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "0" .
+
+team:015        data:name              "Oklahoma City Thunder" ;
+                data:arena             "Paycom Center" ;
+                data:capacity          "18,203" ;
+                data:division          "Northwest" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "4" .
+
+team:016        data:name              "Portland Trail Blazers" ;
+                data:arena             "Moda Center" ;
+                data:capacity          "19,393" ;
+                data:division          "Northwest" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "3" .
+
+team:017        data:name              "Golden State Warriors" ;
+                data:arena             "Chase Center" ;
+                data:capacity          "18,064" ;
+                data:division          "Pacific" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "7" .
+
+team:018        data:name              "Los Angeles Clippers" ;
+                data:arena             "Crypto.com Arena" ;
+                data:capacity          "19,060" ;
+                data:division          "Pacific" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "0" .
+
+team:019        data:name              "Los Angeles Lakers" ;
+                data:arena             "Crypto.com Arena" ;
+                data:capacity          "19,060" ;
+                data:division          "Pacific" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "17" ;
+                data:countConfChamp    "19" .
+
+team:020        data:name              "Phoenix Suns" ;
+                data:arena             "Footprint Center" ;
+                data:capacity          "18,422" ;
+                data:division          "Pacific" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "3" .
+
+team:021        data:name              "Dallas Mavericks" ;
+                data:arena             "American Airlines Center" ;
+                data:capacity          "19,200" ;
+                data:division          "Southwest" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "1" ;
+                data:countConfChamp    "2" .
+
+team:022        data:name              "Houston Rockets" ;
+                data:arena             "Toyota Center" ;
+                data:capacity          "18,055" ;
+                data:division          "Southwest" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "2" ;
+                data:countConfChamp    "4" .
+
+team:023        data:name              "Memphis Grizzlies" ;
+                data:arena             "FedExForum" ;
+                data:capacity          "18,119" ;
+                data:division          "Southwest" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "0" .
+
+team:024        data:name              "New Orleans Pelicans" ;
+                data:arena             "Smoothie King Center" ;
+                data:capacity          "16,867" ;
+                data:division          "Southwest" ;
+                data:conference        "Western" ;
+                data:countNBAChamp     "0" ;
+                data:countConfChamp    "0" .

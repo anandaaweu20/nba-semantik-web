@@ -1,0 +1,13 @@
+PREFIX t: <http://nba.com/team#>
+PREFIX d: <http://nba.com/team/data#>
+
+SELECT *
+WHERE {
+    ?team   d:name              ?name ;
+            d:arena             ?arena ;
+            d:capacity          ?capacity ;
+            d:division          ?division ;
+            d:conference        ?conference ;
+            d:countNBAChamp     ?NBAChamp ;
+            d:countConfChamp    ?conferenceChamp .
+}
