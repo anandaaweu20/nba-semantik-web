@@ -4,6 +4,9 @@ body {
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 12px;
     text-align: center;
     background-color: rgb(5,28,45);
@@ -19,6 +22,7 @@ img {
     align-self: center;
     align-content: center;
     padding: 32px;
+    margin-top: 64px;
 }
 
 .input_search_bar {
@@ -68,4 +72,7 @@ th, td, tr {
     background-color: rgb(5,28,45);
     color:white;
     margin-top: 32px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }

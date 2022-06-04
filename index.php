@@ -128,9 +128,9 @@
         </div>
         
         <!-- Footer -->
-        <div class="footer">
+        <footer class="footer">
             Ananda Sapta Awedhana - 140810190063 | 2022
-        </div>
+        </Footer>
 
     </body>
 
