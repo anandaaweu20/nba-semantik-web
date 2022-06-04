@@ -47,7 +47,7 @@
                 );
             } else {
                 $data = sparql_get(
-                "http://localhost:3030/lapbook",
+                "http://localhost:3030/nba",
                 "
                     PREFIX t: <http://nba.com/team#>
                     PREFIX d: <http://nba.com/team/data#>
