@@ -3,7 +3,6 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NBA Semantic Web</title>
     
@@ -11,6 +10,8 @@
     </head>
 
     <body>
+
+        <!-- Fetching and Connecting data from PHP to SPARQL -->
         <?php
             require_once("sparqllib.php");
             $searchInput = "" ;
@@ -94,7 +95,7 @@
             }
         ?>
 
-        <!-- Body -->
+        <!-- Table -->
         <div class="table_container">
             <table>
                 <thead>
@@ -128,8 +129,9 @@
         
         <!-- Footer -->
         <div class="footer">
-            Ananda Sapta Awedhana - 140810190063 | Copyright 2022
+            Ananda Sapta Awedhana - 140810190063 | 2022
         </div>
+
     </body>
 
 </html>

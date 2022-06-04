@@ -22,7 +22,6 @@ img {
 }
 
 .input_search_bar {
-    /* border: 2px; */
     width: 400px;
     height: 40px;
     padding: 8px;
@@ -45,7 +44,6 @@ img {
 }
 
 table {
-    /* width: 1200px; */
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
